@@ -201,7 +201,7 @@ app.controller('myController',['$scope','socket','$http','$mdDialog','$compile',
                             <span class="direct-chat-name pull-right">'+data.split("#*@")[1]+'</span>\
                             <span class="direct-chat-timestamp pull-left">'+getDate()+'</span>\
                             </div>\
-                            <img class="direct-chat-img" src="" alt="message user image">\
+                            <img class="direct-chat-img" src="https://www.create.ac.uk/wp-content/uploads/2013/08/no_picture.png" alt="image">\
                             <div class="direct-chat-text">'
                             +data.split("#*@")[0]+
                             '</div>\
